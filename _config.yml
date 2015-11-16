@@ -32,36 +32,36 @@ image_dir: assets/images
 sidebar:
     menu:
         home:
-            title: global.home
+            title: home
             url: /
             icon: home
         categories:
-            title: global.categories
+            title: categories
             url: /all-categories
             icon: bookmark
         tags:
-            title: global.tags
+            title: tags
             url: /all-tags
             icon: tags
         archives:
-            title: global.archives
+            title: archives
             url: /all-archives
             icon: archive
         search:
-            title: global.search
+            title: search
             url: /#search
             icon: search
             # `st-search-show-outputs` classes are used to open swiftype search window
             class: st-search-show-outputs
         about:
-            title: global.about
+            title: about
             url: /#about
             icon: question
     author_links:
-        # github:
-        #     title: global.github
-        #     url: https://github.com/
-        #     icon: github
+         github:
+            title: github
+            url: https://github.com/hanpanpan200
+            icon: github
         # stack_overflow:
         #     title: global.stack_overflow
         #     url: http://stackoverflow.com/users
@@ -88,7 +88,7 @@ sidebar:
         #     icon: envelope-o
     rss:
         rss:
-            title: global.rss
+            title: rss
             url: /atom.xml
             icon: rss
 
@@ -112,8 +112,8 @@ header:
 # Author
 # Your biography and your job is editable in each languages files in `languages` folder
 author:
-    email:
-    location:
+    email: hanpanpan200@gmail.com
+    location: Wuhan Hubei
     # Your profile picture located in folder `source/_images/` (development)
     # or in `source/assets/images/` (production)
     # or you can use an external url
