@@ -43,9 +43,8 @@
             </div>
         <% } %>
         <%- partial('post/actions', {postContent: postContent}) %>
-        <% if (post.comments && theme.disqus_shortname) { %>
-            <%- partial('post/disqus') %>
+        <% if (post.comments && theme.duoshuo_shortname) { %>
+            <%- partial('post/comment') %>
         <% } %>
     </div>
 </article>
-

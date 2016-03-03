@@ -1,7 +1,7 @@
 <!--SCRIPTS-->
 <%- js('assets/js/script.min.js') %>
 <!--SCRIPTS END-->
-<% if (theme.disqus_shortname && is_post() && post.comments) { %>
+<!-- <% if (theme.disqus_shortname && is_post() && post.comments) { %>
     <script type="text/javascript">
         var disqus_shortname = '<%= theme.disqus_shortname %>';
         (function() {
@@ -12,7 +12,7 @@
             (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
         })();
     </script>
-<% } %>
+<% } %> -->
 <% if (theme.swiftype_install_key) { %>
     <script type="text/javascript">
         (function(w,d,t,u,n,s,e){w['SwiftypeObject']=n;w[n]=w[n]||function(){
