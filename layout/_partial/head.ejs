@@ -53,7 +53,7 @@
     <title><%= title %></title>
     <meta name="author" content="<%= config.author %>">
     <% if (theme.favicon) { %>
-        <link rel="icon" href="<%- url_for(theme.image_dir + '/' + theme.favicon) %>">
+        <link href="<%- config.root %>favicon.ico" rel="icon" type="image/x-ico">
     <% } %>
     <% if ((config.feed) && (config.feed.path.length)) { %>
         <link rel="alternative" type="application/atom+xml" title="RSS" href="<%- url_for(config.feed.path) %>">
