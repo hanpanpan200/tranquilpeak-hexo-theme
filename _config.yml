@@ -58,14 +58,14 @@ sidebar:
             url: /#about
             icon: question
     author_links:
-         github:
+        github:
             title: github
             url: https://github.com/hanpanpan200
             icon: github
-        # stack_overflow:
-        #     title: global.stack_overflow
-        #     url: http://stackoverflow.com/users
-        #     icon: stack-overflow
+        stack_overflow:
+            title: global.stack_overflow
+            url: http://stackoverflow.com/users/4975975/grace-han
+            icon: stack-overflow
         # twitter:
         #     title: global.twitter
         #     url: https://twitter.com/
@@ -78,10 +78,10 @@ sidebar:
         #     title: global.google_plus
         #     url: https://plus.google.com/
         #     icon: google-plus
-        # linked_in:
-        #     title: global.linkedin
-        #     url: https://www.linkedin.com/profile/
-        #     icon: linkedin
+        linked_in:
+            title: global.linkedin
+            url: https://www.linkedin.com/in/grace-han-aa9397114
+            icon: linkedin
         # mail:
         #     title: global.mail
         #     url: mailto:
@@ -177,3 +177,5 @@ swiftype_install_key:
 fb_admin_ids:
 # Your Facebook app id used to connect your blog with your facebook app account (Facebook Insights). E.g : 9841307
 fb_app_id:
+
+favicon: favicon.ico
