@@ -43,6 +43,7 @@
             </div>
         <% } %>
         <%- partial('post/actions', {postContent: postContent}) %>
+        <%- partial('post/cnzz-analysis')%>
         <% if (post.comments && theme.duoshuo_shortname) { %>
             <%- partial('post/comment') %>
         <% } %>
